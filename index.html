@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 230 Assignment </title>
+    <meta
+      name="mydescription"
+      content="WDD 230 Assignment Home Portal page for BYUI WDD230"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+   
+  </head>
+
+  <body onload="Update();">
+    <div id="pageContent"></div>
+    <header>
+      <img
+        id="profile"
+        src="https://avatars.githubusercontent.com/u/63256641?s=60&v=4"
+        alt="Alex omole"
+      />
+      <div class="textheader">
+        <h1>Alex Omole</h1>
+      </div>
+    </header>
+
+    <main>
+      <h2 id="portalContent">WDD 230 : Assignments </h2>
+      <nav class="lessons">
+        <ul>
+          <li>W01 Assignment: <a href="#">Assignment Link</a></li>
+          <li>W02 Assignment: <a href="#">Assignment Link</a></li>
+          <li>W03 Assignment: <a href="#">Assignment Link</a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer>
+      <div id="footerInfo">
+        <p>
+          &copy; <span id="year">2021</span> | Alex Omole
+          <a id="byui_link" href="https://www.byui.edu/online"
+            >BYUI Online learning</a>
+          <br>
+        </p>
+        <div id="updated">Last updated: <span id="currentDate"></span></div>
+      </div>
+      <div>
+        <span id="updatedDate"></span>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
